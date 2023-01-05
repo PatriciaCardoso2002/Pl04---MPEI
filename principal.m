@@ -10,9 +10,9 @@ if id >= 1 && id <= 943
     option = input(prompt_option);
     switch option 
         case 1
-            yourMovies();
+            yourMovies(id);
         case 2
-            disp('2');
+            moviesBasedOtherUsers(id);
         case 3
             disp('3');
         case 4
