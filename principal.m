@@ -16,8 +16,10 @@ if id >= 1 && id <= 943
         case 3
             disp('3');
         case 4
-            disp('4');
+            string = 'toy';
+            searchTitle(string);
         case 5
-            quit(1);
+            str = 'A aplicação foi fechada!';
+            fprintf("%s\n",str);
     end 
 end
